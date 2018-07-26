@@ -4,6 +4,7 @@ pub enum Key {
     IconPath,
 }
 
+#[derive(Clone)]
 pub struct SearchCandidate {
     searched_text: String,
     display_text: String,
